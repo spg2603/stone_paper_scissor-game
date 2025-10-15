@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    color:#ffffff;
+    height:5rem;
+    line-height:5rem;
+    margin-bottom:15px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:green;
+}
+.choices{
+    height:400px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+}
+.choice{
+    height:150px;
+    width:150px;
+    background-size: cover;
+    background-color:yellow;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border:5px solid black;
+    border-radius:50%;
+    margin-right:100px;
+}
+img{
+    height:100px;
+    width:100px;
+}
+.choice:hover{
+    opacity:0.8;
+    border:4.5px solid green;
+}
+.scorecard{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size:1.5rem;
+    font-weight:800;
+}
+.compscore{
+    margin-right:10px;
+    
+}
+.userscore{
+    margin-right:10px;
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.msg{
+    height:50px;
+    width:150px;
+    background-color:orange;
+    color:white;
+    border:2px solid black;
+    border-radius:10px;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right:15px;
+}
+.resultmsg{
+    height:50px;
+    width:240px;
+    background-color:navy;
+    color:white;
+    border:2px solid black;
+    border-radius:10px;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#usrscr{
+    margin-right:50px;
+}
+.renew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+}
+.newgame{
+    background-color:beige;
+    border-radius: 5px;
+    height: 8px;
+    font-size: medium;
+}
